@@ -61,7 +61,7 @@ public class QuizActivity extends AppCompatActivity {
 
     private void showNextQuestion() {
         question.next();
-        questionTextView.setText(question.getQuestion());
+        questionTextView.setText(question.toString());
         firstAnswer.setText("" + question.getFirstAnswer());
         secondAnswer.setText("" + question.getSecondAnswer());
         thirdAnswer.setText("" + question.getThirdAnswer());
