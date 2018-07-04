@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="submit">Submit</string>
+    <string name="question">What is %d + %d?</string>
+    <string name="correct">Correct!</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="select_answer_prompt">Please select an answer</string>
+</resources>
