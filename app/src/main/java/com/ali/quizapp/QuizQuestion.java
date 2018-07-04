@@ -49,7 +49,7 @@ public class QuizQuestion {
             if(randomNumber == 0 || randomNumber == randomHolder) {
                 randomNumber = random.nextInt(10) + 1;
             }
-            answers[i] = getCorrectAnswer() + randomNumber;
+            answers[i] = Math.abs(getCorrectAnswer() + randomNumber);
             randomHolder = randomNumber;
         }
         // Randomize the correct answer position.
